@@ -1,0 +1,39 @@
+/*header{background:blue;
+color: white;}
+nav{background: chartreuse;
+color: white;}
+section{background: red;
+color: white;}
+.parrafo{background: rgb(240, 178, 21);}
+#pie{background: rgb(37, 195, 243);
+color: white;}*/
+/*Importar Fuente:*/
+
+/*h1{font-family: fuenteRosas;
+font-size: 2em;
+font-weight: lighter;}
+
+#parrafo{font-weight: bold;
+font-variant: small-caps;
+font-style: italic;
+text-decoration: underline;}
+
+#parrafo2{font: bold italic 15pt 'Brush Script MT';}*/
+@font-face {
+    font-family: "fuenteRosas";
+    src: url("Fonts/Not Bad.ttf");}
+
+body{background: coral;}
+
+#titulo{font-family: fuenteRosas;
+font-size: 3em;
+text-align: center;
+text-shadow: -20px -30px 5px greenyellow;
+color: honeydew;}
+
+#seccion1{text-transform:capitalize;
+word-spacing: 10px;
+line-height: 200%;}
+
+#seccion2{text-indent: 50px;
+letter-spacing: 5px;}

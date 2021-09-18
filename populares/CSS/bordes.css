@@ -1,0 +1,135 @@
+#borde1{
+    width: 300px;
+    border: 1px solid;
+    border-top:10px groove red;
+    border-right:10px groove blue;
+    border-bottom:10px groove green;
+}
+#borde2{width: 100px;
+    border-top: dashed blue;
+    border-left: 5px groove orange;
+    border-right: 1px groove red;
+    border-bottom: 6px groove rgb(134, 240, 134);
+}
+#borde21{
+    border-left: 5px groove orange;
+    border-bottom: 5px groove green;
+    margin: auto;
+}
+#borde3{width: 100px;
+    border: 5px blue solid;
+}
+#borde4{width: 100px;
+border-top: 5px groove rgb(75, 75, 41);
+border-left: 5px groove rgb(75, 75, 41);
+border-right: 5px groove orange;
+border-bottom: 5px groove orange;
+}
+#borde5{width: 100px;
+border-top: 5px groove orange;
+border-left: 5px groove orange;
+border-right: 5px groove rgb(75, 75, 41);
+border-bottom: 5px groove rgb(75, 75, 41);
+}
+#borde6{width: 100px;
+    height: 50px;
+    background: black;
+    border-radius: 1px 1px 40px 1px;
+}
+#borde7{width: 100px;
+    height: 50px;
+background: black;
+border-radius: 1px 1px 20px 1px;
+}
+#borde8{width: 100px;
+    height: 50px;
+    background: black;
+    border-radius: 1px 1px 30px 1px;
+}
+#borde9{width: 100px;
+    height: 50px;
+background:black;
+border-radius: 10px 40px 10px 40px;    
+}
+#borde10{width: 100px;
+    height: 50px;
+    background:black;  
+    border-radius: 10px 15px 20px 25px;  
+}
+#borde11{width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 30px 30px 30px 30px;
+}
+#borde12{
+    border:3px black solid;
+    background: yellow;
+}
+#borde13{
+    background:rgb(123, 122, 122);
+    border: 3px dashed red;
+}
+#borde14{
+    background:rgb(122, 211, 238);
+    border-left: 5px double;
+    border-bottom:5px double rgb(14, 207, 255);
+}
+#borde15{border-left:5px double rgb(123, 123, 124);}
+#borde16{background: rgb(243, 173, 232);
+border-bottom:5px dotted rgb(235, 33, 205);
+}
+#borde17{width: 900px;
+    background-image:url("../Images/maderafondo.jpg");
+}
+#borde18{ width: 600px;
+    height: 40px;
+background: green;
+margin: auto;}
+#borde19{width: 100px;height: 40px; background: black;display: inline-block;margin-left: 150px;}
+#borde20{width: 100px;height: 40px; background: rgb(120, 131, 225);display: inline-block;margin-left: -10px;}
+#borde22{width: 120px;height: 40px; background: rgb(68, 141, 237); display: inline-block;margin-left: -10px;}
+#borde23{width: 80px;height: 40px;background: blue;display: inline-block;margin-left: -10px;}
+#borde24{width: 120px;height: 40px;background: rgb(62, 241, 77);display: inline-block;margin-left: -10px;}
+#borde25{width: 110px;height: 40px;background: white;display: inline-block;margin-left: -10px;}
+
+#borde26{width: 100px;height: 40px;background: purple;display: inline-block;margin-left: 150px;}
+#borde27{width: 100px;height: 40px;background: yellow;display: inline-block;margin-left: -10px;}
+#borde28{width: 120px;height: 40px;background: olive;display: inline-block;margin-left: -10px;}
+#borde29{width: 80px;height: 40px;background: red;display: inline-block;margin-left: -10px;}
+#borde30{width: 120px;height: 40px;background: black;display: inline-block;margin-left: -10px;}
+#borde31{width: 110px;height: 40px;background: gray;display: inline-block;margin-left: -10px;}
+
+#borde32{width: 100px;height: 40px;background: olive;display: inline-block;margin-left: 150px;}
+#borde33{width: 100px;height: 40px;background: red;display: inline-block;margin-left: -10px;}
+#borde34{width: 120px;height: 40px;background: fuchsia;display: inline-block;margin-left: -10px;}
+#borde35{width: 298px;height: 40px;background: green;display: inline-block;margin-left: -10px;}
+
+#borde36{display: inline-block;margin-left: 170px;}
+#borde37{display: inline-block; color: teal;margin-left: 10px;}
+#borde38{display: inline-block;color: blue;margin-left: 10px;}
+#borde39{display: inline-block;color: navy;margin-left: 10px;}
+#borde40{display: inline-block;color: lime;margin-left: 10px;}
+#borde41{display: inline-block;color: white;margin-left: 10px;}
+#borde42{display: inline-block;color: purple;margin-left: 10px;}
+#borde43{display: inline-block;color: yellow;margin-left: 10px;}
+
+#borde44{display: inline-block;color: olive;margin-left: 170px;}
+#borde45{display: inline-block;color: red;margin-left: 10px;}
+#borde46{display: inline-block;color: rgb(100, 91, 91);margin-left: 10px;}
+#borde47{display: inline-block;color: gray;margin-left: 10px;}
+#borde48{display: inline-block;color: fuchsia;margin-left: 10px;}
+#borde49{display: inline-block;color: green;margin-left: 10px;}
+#borde50{display: inline-block;color: aqua;margin-left: 10px;}
+#borde51{display: inline-block;color: silver;margin-left: 10px;}
+
+#borde52{width: 800px;height:auto;background-image: url("../Images/SabinaYSerrat.jpg");}
+#borde53{background: black;color: white; width: 800px;height: 80px; text-align: center;display:inline-block;}
+#borde54{color: white;width: 700px; text-align: center;margin-left: 50px;}
+#borde55{color: white;background: black;text-align: center;margin-left: 280px;width: 250px;height: 80px;display:inline-block;}
+
+#borde56{border: gray solid 10px;width: 625px;height: 470px;margin: auto;}
+#borde57{background: blue;color: white;padding: 10px;}
+#borde58{background: red;color: blue;width: 103px;float: left; border: 10px solid transparent;}
+#borde59{border:1px solid transparent;float: right;width: 500px;}
+#borde60{background: yellow;}
+#borde61{background: orange;width: 595px; height: 5px; float: left;padding: 10px;border: 5px solid transparent;}

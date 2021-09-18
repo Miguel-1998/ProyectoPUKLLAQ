@@ -1,0 +1,54 @@
+#contenedor{
+    width: 400px;
+    height: 530px;
+    border: black 2px groove; 
+}
+#parte1{
+    width: auto;
+    height: 50px;
+    color: red;
+    border: red 2px groove;
+    margin: 5px;
+    text-align: center;
+}
+#parte2{
+    width: 370px;
+    color: blue;
+    border: blue 2px groove;  
+    margin-left: 13px;
+    text-align: center;
+}
+#parte3{
+    width: 288px;
+    height: 360px;
+    color: yellow;
+    border: yellow 2px groove;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+#parte4{
+    width: 90px;
+    height: 180px;
+    color: rgb(240, 74, 179);
+    border: rgb(240, 74, 179) 2px groove; 
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+#parte5{
+    width: 90px;
+    height: 180px;
+    float: left;
+    text-align: center;
+}
+#parte6{
+    width: 387px;
+    color: green;
+    border: green 2px groove;
+    margin-left: 5px;
+    margin-top: 4px;
+    text-align: center;
+}
+#borrar{clear: both;}
