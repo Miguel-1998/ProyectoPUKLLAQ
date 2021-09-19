@@ -1,0 +1,33 @@
+#contenedor{width: 1330px;
+height: 1000px;position: relative;margin: auto; border: orange 5px groove;}
+
+#titulo{color: white;background: orange;text-align: center;margin-top: -22px;}
+
+#combo1{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo1.png");}
+#parte1{position: absolute;}
+#a1{width: 60px;height: 60px;position: absolute;margin-left: 18px;margin-top: 338px;}
+
+#combo2{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo2.png");
+margin-left: 450px;}
+#parte2{position: absolute;}
+#a2{width: 60px;height: 60px;position: absolute;margin-left: 18px;margin-top: 338px;}
+
+#combo3{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo3.png");
+margin-left: 900px;}
+#parte3{position: absolute;}
+#a3{width: 60px;height: 60px;position: absolute;margin-left: 18px;margin-top: 338px;}
+
+#combo4{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo4.png");
+margin-top: 420px;}
+#parte4{position: absolute;}
+#a4{width: 60px;height: 60px;position: absolute;margin-left: 0px;margin-top: 338px;}
+
+#combo5{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo5.png");
+margin-top: 420px;margin-left: 450px;}
+#parte5{position: absolute;}
+#a5{width: 60px;height: 60px;position: absolute;margin-left: 18px;margin-top: 338px;}
+
+#combo6{width: 430px;height: 400px;position: absolute;background-image: url("../Images/combo6.png");
+margin-top: 420px;margin-left: 900px;}
+#parte6{position: absolute;}
+#a6{width: 60px;height: 60px;position: absolute;margin-left: 18px;margin-top: 338px;}

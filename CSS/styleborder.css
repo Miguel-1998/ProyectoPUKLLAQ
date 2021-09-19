@@ -1,0 +1,32 @@
+#contenedor{
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+}
+#borde1{
+    border: 1px solid;
+    border-width: 10px;
+    margin: 5px;
+}
+#borde2{
+    border: 5px double blue;
+    width: 380px;
+    float: left;
+}
+#borde3{
+    border: 5px solid;
+    border-radius: 10px 3px 5px 15px;
+    width: 380px;
+    float: left;
+    padding: 5px;
+}
+#borde4{ 
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #22c1c3, #fdbb2d, red);
+    border-image-slice: 1;
+    background-image: url("../Images/Given-11-25.jpg");
+}
+#borde5{background: linear-gradient(to left,red,green,orange);}
+#borra{
+    clear: both;}
+

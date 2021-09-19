@@ -1,0 +1,280 @@
+*{
+    background-attachment: scroll;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 13px;
+    background: rgba(0, 0, 0, 0.808);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(40, 63, 90);
+    border-radius: 10px;
+    border-right-color: 2px solid #000;
+}
+.Encabezado{
+    width: 100%;
+    height: 10%;
+    background: black;
+    text-align: center;
+}
+.img-fluid.fuidez{
+    border-radius: 50%
+}
+.navbar{
+    outline: none;
+}
+.container-fluid{
+    float: right;
+}
+.fuidez{
+    height: 70px;
+}
+.collapse{
+    text-align: justify;
+}
+.navbar-nav{
+    outline: none;
+    box-sizing: content-box;
+    color: transparent;
+}
+.nav-item{
+    color: seashell;
+    box-sizing: border-box;
+}
+.nav-link{
+    outline: none;
+    box-sizing: content-box;
+}
+/*.carousel-inner{
+    padding: 10px 375px;
+    width: 100%;
+    height: 100%;
+} */
+.d-block{
+    height: 100%;
+}
+.title{
+    padding: 5px 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    margin: 120px;
+    padding: 30px;
+    text-align: justify;
+    text-overflow: inherit;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffcf49;
+    border:1px solid #b1b1b1;
+    border-radius:25px;
+}
+
+.pl{
+    width: 100%;
+}
+
+.foteer{
+    text-align: center;
+    background: black;
+    color: white;
+    clear: both;
+    padding: 2px 1px;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.formularioindex {
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.formularioindex, .escribir {
+    width: 100%;
+    background: #24303c;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: white;
+}
+
+.escribir {
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 2680px) {
+    iframe{
+        width: 100%;
+        height: 500.23px;
+    }
+    .img-fluid{
+        width: 100%;
+        height: 500.23px;
+    }
+    .img-fluid.fuidez{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .img-fluid{
+        width: 100%;
+        height: 325px;
+    }
+    .img-fluid.fuidez{
+        height: 70px;
+    }
+    iframe{
+        width: 100%;
+        height: 325px;
+    }
+    li{
+        margin-left: 80px;
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width:1310px) {
+    li{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .img-fluid{
+        width: 100%;
+        height: 325px;
+    }
+}
+@media screen and (max-width:1310px) {
+    li{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:1125px) {
+    li{
+        margin-left: 40px;
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .img-fluid{
+        width: 100%;
+        height: 265px;
+    }
+    iframe{
+        width: 100%;
+        height: 265px;
+    }
+}
+
+@media screen and (max-width : 991px) {
+    .navbar-toggler{
+        padding: 0rem;
+    }
+    .title{
+        padding: 0px ;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img-fluid{
+        width: 100%;
+        height: 380px;
+    }
+    form{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 380px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .img-fluid{
+        width: 100%;
+        height: 350px;
+    }
+    form{
+        width: 100%;
+    }
+    .texto{
+        margin: 0px;
+        padding: 20px;
+        font-size: 1rem;
+    }
+    iframe{
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-fluid{
+        width: 100%;
+        height: 250px;
+    }
+    form{
+        width: 100%;
+    }
+    .texto{
+        margin: 0px;
+        padding: 20px;
+        font-size: 1rem;
+    }
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .img-fluid{
+        width: 100%;
+        height: 250px;
+    }
+    .texto{
+        margin: 0px;
+        font-size: 1rem;
+    }
+}

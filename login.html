@@ -4,15 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/loginstyle.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">  
     <title>Login</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark my-2, my-lg-0, me-sm-0, my-sm-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/Logotipo.jpeg" class="img-fluid fuidez" width="70" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/butm.png" width="50" height="50" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="populares.html">Populares</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ofertas.html">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Ingreso</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> 
+    </header>
     <form class="box" action="index.html" method="POST">
         <h1>Login</h1>
-        <input type="text" name="" placeholder="Username">
+        <input type="text" name="" placeholder="Usuario">
         <input type="password" name="" placeholder="Contraseña">
-        <input type="submit" name="" value="Login">
+        <input type="submit" name="" value="Ingresar">
+        <input type="submit" name="" value="Registro">
     </form>
+    <footer>
+        <p>Pukllaq - Todos los derechos &copy; reservados  </p>
+    </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

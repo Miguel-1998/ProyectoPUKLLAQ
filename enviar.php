@@ -8,10 +8,9 @@ require 'PHPMailer/SMTP.php';
 
 // Formulario 
 $nombre=$_POST["nombre"];
-$categoria=$_POST["categoria"];
 $email=$_POST["email"];
 $mensaje=$_POST["mensaje"];
-$thank="gracias.html";
+$thank="index.html";
 
 // https://github.com/PHPMailer/PHPMailer
 // Gmail debes de permitir aplicaciones de confianzas segura : Debe estar SI.
@@ -39,7 +38,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Sistema de Certus - Mensajeria';
-    $mail->Body    = 'De: '.$nombre.' <br>  Correo: '.$categoria.' <br>  Correo: '.$email.' <br>  Mensaje:'.$mensaje.'';
+    $mail->Body    = 'De: '.$nombre.' <br>  Correo: '.$email.' <br>  Mensaje:'.$mensaje.'';
 
     $mail->send();
     //echo 'El mensaje se envio correctamente';

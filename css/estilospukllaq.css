@@ -21,7 +21,9 @@ body::-webkit-scrollbar-thumb{
 }
 .img-fluid{
     float: left;
-    width: 110px;
+}
+.fuidez{
+    height: 70px;
 }
 header{
     width: 100%;
@@ -73,18 +75,31 @@ h2{
     box-sizing:border-box;
     margin-top: 20px;
 }
+.pop{
+    text-align: justify;
+}
+.news{
+    text-align: center;
+
+}
 footer{
             background-color:#000000;
             color:#fff;
             clear:both;
-            padding:10px;
+            padding:2px 1px;
             text-align:center;
 }
 .img-nov{
     width:100%;
 }
+.img-fluid.fuidez{
+    border-radius: 50%
+}
 iframe{
     width:100%;
+}
+.not-tit{
+    text-align: center;
 }
 form {
     width: 800px;
@@ -126,7 +141,9 @@ form {
     padding: 20px;
     width: 100%;
 }
-
+img{
+    width: 100%;
+}
 #boton:hover {
     cursor: pointer;
 }
@@ -134,22 +151,44 @@ form {
     text-align: justify;
     font-size: 1.5em;
 }
+@media screen and (max-width:1920px) {
+    li{
+        margin-left: 80px;
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width:1310px) {
+    li{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:1125px) {
+    li{
+        margin-left: 40px;
+        padding-left: 40px;
+    }
+}
 @media screen and (max-width:1200px) {
     .vids-nov{
-        height: 310px;
+        height: 450px;
     }
-    
+    .video{
+        height: 450px;
+    }
 }
+
+@media screen and (max-width : 991px) {
+    .navbar-toggler{
+        padding: 0rem;
+    }
+}
+
 @media screen and (max-width:800px) {
     .main-nov .articles-nov,.articles-nov,.article-right,.articles-2,.article-2r,.articles-3,.article-3r,.articles-4,.article-4r,.articles-5,.article-5r,.articles-6,.article-6r,.articles-7,.article-7r,.articles-8,.article-8r,.articles-9,.article-9r,.articles-10,.article-10r,.articles-11,.article-11r{
         float:none;
         width: 100%;
     }
-    form{
-        width: 100%;
-    }
-}
-@media (max-width: 480px) {
     form{
         width: 100%;
     }

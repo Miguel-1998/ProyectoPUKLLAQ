@@ -1,0 +1,151 @@
+#seccion{
+    width: 1000px;
+    height: 800px;
+    background: white;
+    border: 10px solid rgb(12, 7, 58);
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+}
+@font-face {
+    font-family: marguerite;
+    src: url('font/marguerite.ttf');
+}
+#men1{
+    width: 1000px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-family: marguerite;
+}
+#img1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -40px;
+    left: 20px;
+    z-index: 2;
+}
+#men2{
+    position: relative;
+    bottom: 275px;
+    left: 28px;
+    z-index: 3;
+}
+#agregar1{
+    width: 40px;
+    height: 40px;
+    z-index: 4;
+}
+#img2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom:-40px;
+    left: 50px;
+}
+#men3{
+    position: relative;
+    bottom: 618px;
+    left: 360px;
+    z-index: 3;
+}
+#agregar2{
+    width: 45px;
+    height: 45px;
+    z-index: 4;
+}
+#img3{
+    width: 300px;
+    height: 280px;
+    position: relative;
+    bottom:-30px;
+    left: 70px;
+}
+#men4{
+    position: relative;
+    bottom: 980px;
+    left: 690px;
+    z-index: 3;
+}
+#agregar3{
+    width: 50px;
+    height: 50px;
+    z-index: 4;
+}
+#des1{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1310px;
+    left: 228px;
+    z-index: 2;
+}
+#des2{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1310px;
+    left: 475px;
+    z-index: 2;
+}
+#des3{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1310px;
+    left: 720px;
+    z-index: 2;
+}
+#img4{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -50px;
+    right: 235px;
+    z-index: 2;
+    left: 20px;
+}
+#img5{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -50px;
+    right: 205px;
+    z-index: 2;
+    left: 50px;
+}
+#img6{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -50px;
+    left: 70px;
+    z-index: 2;
+}
+#des6{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1280px;
+    right: 250px;
+    z-index: 2;
+}
+#des4{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1280px;
+    left: 255px;
+    z-index: 2;
+}
+#des5{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 1280px;
+    left: 500px;
+    z-index: 2;
+}

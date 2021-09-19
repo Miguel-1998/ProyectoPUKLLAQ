@@ -1,12 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background: #34495e;
+}
+header{
+    width: 100%;
+    background: #000;
+}
+header nav{
+    overflow: hidden;
+}
+.img-fluid{
+    float: left;
+    height: 70px;
+}
+.img-fluid.fuidez{
+    border-radius: 50%
 }
 .box{
     width: 300px;
-    padding: 40;
+    padding: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,4 +66,57 @@ body{
 }
 .box input[type = "submit"]:hover{
     background: #2ecc71;
+}
+.log-vin{
+    color:blue;
+}
+footer{
+    background-color:#000000;
+    color:#fff;
+    clear:both;
+    padding:2px 1px;
+    text-align:center;
+    margin-top: 800px;
+}
+@media screen and (max-width:1920px) {
+    li{
+        margin-left: 80px;
+        padding-left: 80px;
+    }
+    .box{
+        width:350px;
+    }
+}
+@media screen and (max-width:1310px) {
+    li{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:1125px) {
+    li{
+        margin-left: 40px;
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:1024px) {
+    footer{
+        margin-top: 1230px;
+    }
+}
+@media screen and (max-width:991px) {
+    .box{
+        top: 65%;
+    }
+}
+@media screen and (max-width:361px) {
+    .box{
+        top: 85%;
+    }
+}
+@media screen and (max-width:320px) {
+    .box{
+        top: 95%;
+        width: 300px;
+    }
 }

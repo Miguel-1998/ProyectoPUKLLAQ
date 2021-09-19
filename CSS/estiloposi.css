@@ -1,0 +1,41 @@
+#contenedor{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(150, 150, 150);
+    margin: auto;
+    position: relative;
+}
+#bloque1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+#bloque2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+#bloque3{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    z-index: 3;
+}
+#bloque4{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    left: 150px;
+    top: 150px;
+    position: absolute;
+    z-index: 4;
+}
